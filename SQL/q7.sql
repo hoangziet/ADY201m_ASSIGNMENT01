@@ -1,0 +1,3 @@
+SELECT TOP 5 Community_Area_Number, COMMUNITY_AREA_NAME, Households_Below_Poverty_Percent
+FROM tbl_Census
+ORDER BY Households_Below_Poverty_Percent DESC
